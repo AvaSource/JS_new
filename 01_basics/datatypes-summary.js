@@ -40,3 +40,29 @@ Object (host and does not implement[Call]) --> implementation defined
                         except may not be undefined, boolean, number,
                         or a string
 */
+
+// *******************************************************************
+// Stack (Primitive)
+let myName = "KaavyaDesai"
+let anotherName = myName
+anotherName = "Ava Desai"
+
+console.log(myName);
+console.log(anotherName);
+
+
+// Heap(Non-Primitive)
+let user1 = {
+    email : "ava@gmail.com",
+    upi : "ava02desai"
+}
+
+let user2 = user1
+
+user2.email = "kaavya@gmail.com"
+
+console.log(user1.email);
+console.log(user2.email);
+
+
+
